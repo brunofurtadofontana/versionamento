@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jovem Programador - Senac SC</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#f4f6f8;
+color:#333;
+}
+
+header{
+
+background:linear-gradient(135deg,#003366,#0072CE);
+
+color:white;
+
+padding:70px 30px;
+
+}
+
+.container{
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+.hero{
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+gap:40px;
+
+flex-wrap:wrap;
+
+}
+
+.hero-text{
+
+flex:1;
+
+}
+
+.hero-text h1{
+
+font-size:52px;
+
+margin-bottom:20px;
+
+}
+
+.hero-text p{
+
+font-size:20px;
+
+line-height:1.7;
+
+margin-bottom:30px;
+
+}
+
+.botao{
+
+background:#ffcc00;
+
+padding:15px 35px;
+
+border-radius:50px;
+
+color:#000;
+
+text-decoration:none;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.botao:hover{
+
+background:white;
+
+}
+
+.hero img{
+
+width:500px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.3);
+
+}
+
+section{
+
+padding:80px 30px;
+
+}
+
+h2{
+
+text-align:center;
+
+font-size:38px;
+
+margin-bottom:40px;
+
+color:#003366;
+
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+}
+
+.card{
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+text-align:center;
+
+}
+
+.card h3{
+
+margin:15px 0;
+
+}
+
+.card p{
+
+line-height:1.6;
+
+}
+
+.tecnologias{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:15px;
+
+}
+
+.tag{
+
+background:#003366;
+
+color:white;
+
+padding:12px 25px;
+
+border-radius:30px;
+
+font-weight:bold;
+
+}
+
+.cta{
+
+background:#0072CE;
+
+color:white;
+
+text-align:center;
+
+padding:80px 30px;
+
+}
+
+footer{
+
+background:#222;
+
+color:white;
+
+text-align:center;
+
+padding:30px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container hero">
+
+<div class="hero-text">
+
+<h1>Jovem Programador</h1>
+
+<p>
+Aprenda programação do zero e prepare-se para atuar no mercado de tecnologia.
+O programa é realizado em parceria com o Senac SC e busca formar novos talentos para a área de desenvolvimento de software.
+</p>
+
+<a class="botao" href="#">Quero participar</a>
+
+</div>
+
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900" alt="Programação">
+
+</div>
+
+</header>
+
+<section>
+
+<div class="container">
+
+<h2>Sobre o Programa</h2>
+
+<p style="text-align:center;font-size:18px;line-height:1.8">
+
+O Jovem Programador é um programa de capacitação tecnológica voltado para pessoas a partir de 16 anos, oferecendo formação em tecnologia da informação com aulas práticas e preparação para o mercado de trabalho.
+
+</p>
+
+</div>
+
+</section>
+
+<section style="background:white;">
+
+<div class="container">
+
+<h2>O que você vai aprender</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Lógica de Programação</h3>
+
+<p>Aprenda a pensar como um desenvolvedor.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Desenvolvimento Web</h3>
+
+<p>HTML, CSS, JavaScript e aplicações modernas.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Banco de Dados</h3>
+
+<p>Modelagem e consultas SQL.</p>
+
+</div>
+
+<div class="card">
+
+<h3>DevOps</h3>
+
+<p>Git, GitHub, Docker e práticas modernas.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Inteligência Artificial</h3>
+
+<p>Ferramentas de IA aplicadas ao desenvolvimento.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Projetos</h3>
+
+<p>Aprendizado baseado em desafios reais.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2>Tecnologias</h2>
+
+<div class="tecnologias">
+
+<span class="tag">HTML5</span>
+<span class="tag">CSS3</span>
+<span class="tag">JavaScript</span>
+<span class="tag">Git</span>
+<span class="tag">GitHub</span>
+<span class="tag">Docker</span>
+<span class="tag">PostgreSQL</span>
+<span class="tag">Node.js</span>
+<span class="tag">React</span>
+<span class="tag">IA Generativa</span>
+
+</div>
+
+</div>
+
+</section>
+
+<section style="background:white;">
+
+<div class="container">
+
+<h2>Por que fazer o curso?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>💼 Mercado aquecido</h3>
+<p>A área de tecnologia continua demandando profissionais qualificados.</p>
+</div>
+
+<div class="card">
+<h3>🚀 Aprendizado prático</h3>
+<p>Desenvolvimento de projetos durante o curso.</p>
+</div>
+
+<div class="card">
+<h3>🎓 Formação de qualidade</h3>
+<p>Conteúdo ministrado pelo Senac SC.</p>
+</div>
+
+<div class="card">
+<h3>🤝 Conexão com empresas</h3>
+<p>Contato com o ecossistema de tecnologia e oportunidades.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2 style="color:white;">Comece sua carreira em Tecnologia</h2>
+
+<p style="font-size:20px;margin:20px 0 40px;">
+Dê o primeiro passo para se tornar um desenvolvedor e construir uma carreira na área de TI.
+</p>
+
+<a class="botao" href="#">Saiba Mais</a>
+
+</section>
+
+<footer>
+
+<p>Landing Page demonstrativa inspirada nas informações públicas do Programa Jovem Programador.</p>
+
+</footer>
+
+</body>
+
+</html>
